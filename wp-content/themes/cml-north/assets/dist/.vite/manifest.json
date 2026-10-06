@@ -1,0 +1,160 @@
+{
+  "_charts-BxKzcnQm.js": {
+    "file": "chunks/charts-BxKzcnQm.js",
+    "name": "charts"
+  },
+  "_lab-D46Mdhif.js": {
+    "file": "chunks/lab-D46Mdhif.js",
+    "name": "lab",
+    "imports": [
+      "src/tasks/runner.ts"
+    ]
+  },
+  "_pools-DPffwJJj.js": {
+    "file": "chunks/pools-DPffwJJj.js",
+    "name": "pools"
+  },
+  "_shared-CftGwkK-.js": {
+    "file": "chunks/shared-CftGwkK-.js",
+    "name": "shared"
+  },
+  "node_modules/@fontsource-variable/geist-mono/files/geist-mono-latin-ext-wght-normal.woff2": {
+    "file": "assets/geist-mono-latin-ext-wght-normal-Bwz-egvJ.woff2",
+    "src": "node_modules/@fontsource-variable/geist-mono/files/geist-mono-latin-ext-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/geist-mono/files/geist-mono-latin-wght-normal.woff2": {
+    "file": "assets/geist-mono-latin-wght-normal-XN7g48iV.woff2",
+    "src": "node_modules/@fontsource-variable/geist-mono/files/geist-mono-latin-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-italic.woff2": {
+    "file": "assets/geist-latin-ext-wght-italic-XgKbg5n7.woff2",
+    "src": "node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-italic.woff2"
+  },
+  "node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-normal.woff2": {
+    "file": "assets/geist-latin-ext-wght-normal-DC-KSUi6.woff2",
+    "src": "node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/geist/files/geist-latin-wght-italic.woff2": {
+    "file": "assets/geist-latin-wght-italic-dTnRTFFJ.woff2",
+    "src": "node_modules/@fontsource-variable/geist/files/geist-latin-wght-italic.woff2"
+  },
+  "node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2": {
+    "file": "assets/geist-latin-wght-normal-BgDaEnEv.woff2",
+    "src": "node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2"
+  },
+  "src/main.ts": {
+    "file": "app-BujzYkRc.js",
+    "name": "app",
+    "src": "src/main.ts",
+    "isEntry": true,
+    "imports": [
+      "_shared-CftGwkK-.js"
+    ],
+    "dynamicImports": [
+      "src/tasks/defs/feedback-learning.ts",
+      "src/tasks/defs/jor.ts",
+      "src/tasks/defs/recognition.ts",
+      "src/tasks/defs/serial-recall.ts",
+      "src/tasks/defs/strategy.ts",
+      "src/tasks/defs/word-pairs.ts",
+      "src/tasks/runner.ts",
+      "src/scene/index.ts"
+    ],
+    "assets": [
+      "assets/geist-latin-wght-normal-BgDaEnEv.woff2",
+      "assets/geist-latin-ext-wght-normal-DC-KSUi6.woff2",
+      "assets/geist-latin-wght-italic-dTnRTFFJ.woff2",
+      "assets/geist-latin-ext-wght-italic-XgKbg5n7.woff2",
+      "assets/geist-mono-latin-wght-normal-XN7g48iV.woff2",
+      "assets/geist-mono-latin-ext-wght-normal-Bwz-egvJ.woff2"
+    ]
+  },
+  "src/scene/index.ts": {
+    "file": "chunks/scene-BpkMS1rH.js",
+    "name": "scene",
+    "src": "src/scene/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_shared-CftGwkK-.js"
+    ]
+  },
+  "src/tasks/defs/feedback-learning.ts": {
+    "file": "chunks/feedback-learning-CNXqvETb.js",
+    "name": "feedback-learning",
+    "src": "src/tasks/defs/feedback-learning.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/tasks/runner.ts",
+      "_lab-D46Mdhif.js",
+      "_charts-BxKzcnQm.js"
+    ]
+  },
+  "src/tasks/defs/jor.ts": {
+    "file": "chunks/jor-BVi7SLRY.js",
+    "name": "jor",
+    "src": "src/tasks/defs/jor.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/tasks/runner.ts",
+      "_lab-D46Mdhif.js"
+    ]
+  },
+  "src/tasks/defs/recognition.ts": {
+    "file": "chunks/recognition-C9eVMFeW.js",
+    "name": "recognition",
+    "src": "src/tasks/defs/recognition.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/tasks/runner.ts",
+      "_lab-D46Mdhif.js",
+      "_charts-BxKzcnQm.js",
+      "_pools-DPffwJJj.js"
+    ]
+  },
+  "src/tasks/defs/serial-recall.ts": {
+    "file": "chunks/serial-recall-uRhXjtU2.js",
+    "name": "serial-recall",
+    "src": "src/tasks/defs/serial-recall.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/tasks/runner.ts",
+      "_lab-D46Mdhif.js",
+      "_charts-BxKzcnQm.js",
+      "_pools-DPffwJJj.js"
+    ]
+  },
+  "src/tasks/defs/strategy.ts": {
+    "file": "chunks/strategy-tIzDkE61.js",
+    "name": "strategy",
+    "src": "src/tasks/defs/strategy.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/tasks/runner.ts",
+      "_lab-D46Mdhif.js",
+      "_charts-BxKzcnQm.js",
+      "_pools-DPffwJJj.js"
+    ]
+  },
+  "src/tasks/defs/word-pairs.ts": {
+    "file": "chunks/word-pairs-CVmgJrNp.js",
+    "name": "word-pairs",
+    "src": "src/tasks/defs/word-pairs.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/tasks/runner.ts",
+      "_lab-D46Mdhif.js",
+      "_charts-BxKzcnQm.js",
+      "_pools-DPffwJJj.js"
+    ]
+  },
+  "src/tasks/runner.ts": {
+    "file": "chunks/runner-DJ3VlhLu.js",
+    "name": "runner",
+    "src": "src/tasks/runner.ts",
+    "isDynamicEntry": true
+  },
+  "style.css": {
+    "file": "app-ZJd_M96j.css",
+    "src": "style.css"
+  }
+}
